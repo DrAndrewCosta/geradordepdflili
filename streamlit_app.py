@@ -88,7 +88,7 @@ def build_pdf_from_images(images, *,
 
 # ====== UI ======
 st.set_page_config(page_title="LILI – PDF Multigrupos (8/img por página)", layout="wide")
-st.title("LILI – PDF de imagens de ultrassom (multigrupos, 8 por página)")
+st.title("Gerador LILI de PDF de imagens de ultrassom")
 st.caption("Envie imagens em grupos; gere um PDF por grupo e, se quiser, baixe tudo em ZIP.")
 
 if "groups" not in st.session_state:
